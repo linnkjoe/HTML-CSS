@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(143, 142, 142);
+    }
+
+    header{
+        background-color: white;
+    }
+
+    nav{
+        background-color: rgb(124, 124, 124);
+        padding: 9px;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        width: 350px;
+        box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.418);
+        
+    }
+    
+    nav> #primeiro{
+        background-color: rgb(49, 100, 83);
+        padding: 9px;
+        text-align: start;
+    }
+
+    nav > a:hover{
+        text-decoration: underline;
+        
+    }
+
+    nav > a{
+        font-weight: bold;
+        margin-right: 25px;
+    }
+
+    main{
+        background-color: white;
+        noticias{
+            background-color: lightgray;
+        }
+        aside{
+            background-color: gray;
+        }
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 20px 0px;
+        box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.445);
+    }
+
+    footer{
+        background-color: black;
+        color: white;
+        padding: 4px;
+        text-align: center;
+    }
+
+    #noticias{
+        background-color: rgb(180, 180, 180);
+        padding: 5px;
+    }
+
+    </style>
+    <title>Grouping tag</title>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a id="primeiro" href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="Assuntos">
+<p>Desporto, Politica e Tech</p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                
+                <h2>Noticia sobre suburbio</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas aut id laborum sint quod vero nobis dolorem ipsam rem? Dignissimos consequuntur officiis animi sequi soluta illo doloribus omnis adipisci rem!</p>
+                <aside>
+                    <p>Escrito por Joe</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>desenvolvido por Joe</p>
+    </footer>
+</body>
+</html>
